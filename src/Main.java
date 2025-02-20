@@ -1,3 +1,5 @@
+// Main.java 的补充部分
+
 public class Main{
     public static void main(String[] args) {
         
@@ -7,16 +9,12 @@ public class Main{
         System.out.println("Now playing the song");
         mbox.playSong(mbox.getSongID(), mbox.getPremiumSong(), 2);
         
-        // --- TODO
-
-        /* Repeat the above code to create another object  
-         * Pass different parameters to the MusicBox constructor, but initialise premiumSong to N and when calling the
-         * playSong method, pass ads parameter as just 1
-         * 
-         * 
-        */
+        // --- TODO: 创建第二个MusicBox对象
+        MusicBox mbox2 = new MusicBox("NEW1234", 'N', "Sunshine", "Sunny", 
+        "Bright Days", "Pop", "Sun Records", "Solar Beats");
         
-
+        System.out.println("Now playing another song");
+        mbox2.playSong(mbox2.getSongID(), mbox2.getPremiumSong(), 1);
     }
 }
 
