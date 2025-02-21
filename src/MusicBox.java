@@ -24,7 +24,7 @@ public class MusicBox {
         this.songMusicLabel = label;
         this.noAds = 1;
         // -- TODO
-        /* Initialise  the rest of the variables in this Constructor block*/
+        /* Initialise  the rest ofriables in this Constructor block*/
     }
     
     
